@@ -4,7 +4,11 @@ class Camera extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Camera'),
+      child: Icon(
+        Icons.camera,
+        size: 50,
+        color: Colors.grey,
+      ),
     );
   }
 }
